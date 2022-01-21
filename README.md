@@ -1,2 +1,2 @@
-# evayuqingcao.github.io
+# EvaYuqingCao.github.io
 Eva Yuqing Cao's Personal Website
