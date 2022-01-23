@@ -2322,6 +2322,17 @@ input, select, textarea {
 			display: block;
 		}
 
+		.image.smallleft {
+			max-width: 36%;
+		}
+		.image.largeright {
+			max-width: 64%;
+		}
+			.image.smallleft img, .image.largeright img {
+				width: 100%;
+			}
+		
+
 		.image.left, .image.right {
 			max-width: 50%;
 		}
@@ -2329,6 +2340,17 @@ input, select, textarea {
 			.image.left img, .image.right img {
 				width: 100%;
 			}
+
+		.image.smallleft {
+			float: left;
+			padding: 0 1.5em 1em 0;
+			top: 0.25em;
+		}
+		.image.largeright {
+			float: right;
+			padding: 0 0 1em 1.5em;
+			top: 0.25em;
+		}
 
 		.image.left {
 			float: left;
